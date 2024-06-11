@@ -38,7 +38,7 @@ export class OrderComponent implements OnInit {
     let pageIndex = event.pageIndex + 1;
     this.orderService.listPurchaseHistory(pageIndex, event.pageSize).subscribe(data => {
       this.cantidad = data.total;
-      this.dataSource.data = data.data;
+      this.dataSource = new MatTableDataSource(data.data);
     });
   }
 }
