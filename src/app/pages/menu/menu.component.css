@@ -1,0 +1,29 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+mat-tree {
+    max-width: 400px;
+    margin: auto;
+}
+
+mat-icon {
+    cursor: pointer;
+}
+
+.custom-tree-node {
+    background-color: #f0f0f0;
+    /* Color de fondo para los nodos del árbol */
+    color: #333;
+    /* Color de texto para los nodos del árbol */
+    font-size: 16px;
+    /* Tamaño de letra más grande */
+    padding: 12px;
+}
+
+.custom-tree-node:hover {
+    background-color: #e0e0e0;
+    /* Color de fondo al pasar el cursor */
+}
