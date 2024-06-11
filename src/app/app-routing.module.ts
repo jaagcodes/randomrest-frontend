@@ -6,6 +6,7 @@ import { RestockComponent } from './pages/restock/restock.component';
 import { MenuComponent } from './pages/menu/menu.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/pages/menu', pathMatch: 'full' }, // Redirecciona la raíz a /pages/menu
   { path: 'pages/inventory', component: InventoryComponent },
   { path: 'pages/restock', component: RestockComponent },
   { path: 'pages/order', component: OrderComponent },
