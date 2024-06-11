@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: your-app-name
+    env: node
+    buildCommand: npm run build
+    startCommand: npx http-server ./dist/randomrest-frontend -p 3000
+    plan: free
+    envVars:
+      - key: NODE_ENV
+        value: production

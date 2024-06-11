@@ -1,0 +1,7 @@
+{
+    "public": "dist/randomrest-frontend",
+    "cleanUrls": false,
+    "rewrites": [
+      { "source": "/**", "destination": "/index.html" }
+    ]
+  }
