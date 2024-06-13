@@ -14,49 +14,49 @@ const TREE_DATA: FoodNode[] = [
   {
     name: 'Tomato Salad',
     children: [
-      { name: 'Tomato', quantity: 2 },
-      { name: 'Lemon', quantity: 1},
-      { name: 'Lettuce', quantity: 1 },
+      { name: 'Tomato 2' },
+      { name: 'Lemon 1' },
+      { name: 'Lettuce 1' },
     ],
   },
   {
     name: 'Potato Rice',
     children: [
-      { name: 'Potato', quantity: 3 },
-      { name: 'Rice', quantity: 2},
-      { name: 'Onion', quantity: 1 },
+      { name: 'Potato 3' },
+      { name: 'Rice 2' },
+      { name: 'Onion 1' },
     ],
   },
   {
     name: 'Cheesy Meatloaf',
     children: [
-      { name: 'Meat', quantity: 2 },
-      { name: 'Cheese', quantity: 1},
-      { name: 'Onion', quantity: 1 },
+      { name: 'Meat 2' },
+      { name: 'Cheese 1' },
+      { name: 'Onion 1' },
     ],
   },
   {
     name: 'Chicken Stir Fry',
     children: [
-      { name: 'Chicken', quantity: 2 },
-      { name: 'Tomato', quantity: 1},
-      { name: 'Lemon', quantity: 1 },
+      { name: 'Chicken 2' },
+      { name: 'Tomato 1' },
+      { name: 'Lemon 1' },
     ],
   },
   {
     name: 'Lemon Rice',
     children: [
-      { name: 'Rice', quantity: 3 },
-      { name: 'Lemon', quantity: 2 },
-      { name: 'Onion', quantity: 1 },
+      { name: 'Rice 3' },
+      { name: 'Lemon 2' },
+      { name: 'Onion 1' },
     ],
   },
   {
     name: 'Ketchup Chicken',
     children: [
-      { name: 'Tomato', quantity: 2 },
-      { name: 'Lemon', quantity: 2 },
-      { name: 'Lettuce', quantity: 1 },
+      { name: 'Tomato 2' },
+      { name: 'Lemon 2' },
+      { name: 'Lettuce 1' },
     ],
   },
 ];
