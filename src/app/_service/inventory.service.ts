@@ -8,7 +8,7 @@ import { Ingredient } from '../_model/ingredient';
 })
 export class InventoryService {
 
-  private url: string = `https://microservice-inventory-n9p7.onrender.com/ingredients`;
+  private url: string = `https://microservice-inventory-xf8y.onrender.com/ingredients`;
 
   constructor( private http: HttpClient ) { }
 

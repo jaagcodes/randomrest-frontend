@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class OrderService {
-  private url: string = `https://microservice-order-ytol.onrender.com/orders`;
+  private url: string = `https://microservice-order-xir5.onrender.com/orders`;
 
   constructor( private http: HttpClient ) { }
 

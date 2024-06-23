@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class RestockService {
 
-  private url: string = `https://microservice-inventory-n9p7.onrender.com/purchase-history`;
+  private url: string = `https://microservice-inventory-xf8y.onrender.com/purchase-history`;
 
   constructor( private http: HttpClient ) { }
 

@@ -7,7 +7,7 @@ import { environment } from '../../environments/environment';
   providedIn: 'root'
 })
 export class MenuService {
-  private apiUrl = 'https://microservice-order-ytol.onrender.com';
+  private apiUrl = 'https://microservice-order-xir5.onrender.com';
 
   constructor(private http: HttpClient) { }
 
